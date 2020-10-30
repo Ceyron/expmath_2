@@ -2,7 +2,7 @@ import streamlit as st
 from sites.site_overview import site_overview
 from pathlib import Path
 import importlib
-from templates.regular import regular
+from templates.overview import templates_overview
 
 st.set_page_config(
     layout="centered",
@@ -39,4 +39,4 @@ else:
 
     app_details = topic_overview_in_language["apps"][app]["details"]
     app_details_in_language = app_details["german"]
-    regular(app_details_in_language)
+    templates_overview[topic_overview_in_language["apps"][app]["type"]](app_details_in_language)
