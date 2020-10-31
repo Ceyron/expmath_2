@@ -105,7 +105,8 @@ def epsilon():
         xaxis_title=None,
         yaxis_title=None,
         template="plotly_white",
-        showlegend=False
+        showlegend=False,
+        dragmode=False,
     )
 
     st.plotly_chart(fig, use_container_width=True)
