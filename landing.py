@@ -35,6 +35,8 @@ st.markdown(r"""
     #MainMenu {visibility: hidden;}
     footer {display: none;}
 
+    iframe {background-color: white;}
+
     </style>
 """, unsafe_allow_html=True)
 
