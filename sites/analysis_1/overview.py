@@ -6,6 +6,7 @@ from sites.analysis_1.info import details as details_info
 
 from sites.analysis_1.epsilon import details as details_epsilon
 from sites.analysis_1.sums import details as details_sums
+from sites.analysis_1.simple_functions import details as details_simple_functions
 
 overview = {
     "german": {
@@ -24,6 +25,11 @@ overview = {
                 "name": "sums",
                 "type": "regular",
                 "details": details_sums,
+            },
+            "Standardfunktionen": {
+                "name": "simple_functions",
+                "type": "regular",
+                "details": details_simple_functions,
             },
         }
     }
