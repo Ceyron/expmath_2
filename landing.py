@@ -35,10 +35,22 @@ st.markdown(r"""
     #MainMenu {visibility: hidden;}
     footer {display: none;}
 
-    iframe {background-color: white;}
+    iframe {
+        background-color: white;
+    }
 
     </style>
 """, unsafe_allow_html=True)
+
+iframe_scaling = r"""
+          zoom: 0.6;
+  -moz-transform: scale(0.6);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.6);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.6);
+  -webkit-transform-origin: 0 0;
+"""
 
 site_overview_in_language = site_overview["german"]
 
