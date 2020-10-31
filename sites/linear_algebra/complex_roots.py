@@ -105,7 +105,7 @@ details = {
                 3. Testen Sie dies, indem Sie die fünften Wurzeln aus
                     $\displaystyle a = \frac{1}{\sqrt{2}} + {\rm{i}} \cdot
                     \frac{1}{\sqrt{2}}$ hernehmen, und den Laufindex
-                    $k=0,1,2,3,4,5,6,\ldots $ beliebig hoch laufen lassen. Was
+                    $k=0,1,2,3,4,5,6,\ldots$ beliebig hoch laufen lassen. Was
                     beobachten Sie?
                 4. Kommentieren Sie die Aussagen: 
                     * Es gibt genau $n$ $n$-te Wurzeln aus $a\in\mathbb{C}$.

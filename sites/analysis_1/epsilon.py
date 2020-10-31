@@ -38,7 +38,7 @@ def epsilon():
         )
         epsilon = col_2.slider(
             label=r"Schlauchweite",
-            min_value=-2.0,
+            min_value=0.05,
             max_value=3.0,
             value=1.0,
             step=0.05,
