@@ -8,6 +8,7 @@ from sites.analysis_1.epsilon import details as details_epsilon
 from sites.analysis_1.sums import details as details_sums
 from sites.analysis_1.simple_functions import details as details_simple_functions
 from sites.analysis_1.trigonometric_functions import details as details_trigonometric_functions
+from sites.analysis_1.stepwise_drawing import details as details_stepwise_drawing
 
 overview = {
     "german": {
@@ -36,6 +37,11 @@ overview = {
                 "name": "trigonometric_functions",
                 "type": "regular",
                 "details": details_trigonometric_functions,
+            },
+            "Schrittweises Skizzieren": {
+                "name": "stepwise_drawing",
+                "type": "regular",
+                "details": details_stepwise_drawing,
             },
         }
     }
