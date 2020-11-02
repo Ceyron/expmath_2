@@ -13,8 +13,14 @@ def simple_functions():
 details = {
     "german": {
         "title": "Die Standardfunktionen",
-        "introduction": "",
+        "introduction": "Hier geht es um die Standardfunktionen.",
         "theory": [
+            (
+                "Was ist Standard?",
+                r"""
+                Standard sind alle Funktionen, die Sie kennen sollen.
+                """
+            ),
             (
                 "Was ist eine Funktion?",
                 r"""
