@@ -15,6 +15,11 @@ def info():
     )
 
     st.image("https://online-learning.harvard.edu/sites/default/files/styles/social_share/public/course/bigstock-123382757-1280x640.jpg?itok=XpWP1P5J", use_column_width=True)
+    
+    st.markdown(
+    r"""
+    Viel Spaß!
+    """)
 
 details = {
     "german": {
